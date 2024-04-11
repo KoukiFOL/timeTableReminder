@@ -1,0 +1,2 @@
+# timeTableManager
+大学の時間割をGoogle Carendarにスケジュールとして追加するbotです
