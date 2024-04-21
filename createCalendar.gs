@@ -14,7 +14,7 @@ function createCalendar() {
 
       var calendarOptions = {
         summary: 'timeTableManagerより作成',
-        color: CalendarApp.Color.GRAY
+        color: CalendarApp.Color.MUSTARD
       }
       var calendar = CalendarApp.createCalendar('時間割', calendarOptions)[0];
       console.log("時間割を書き込むカレンダーがなかったので作成しました。")

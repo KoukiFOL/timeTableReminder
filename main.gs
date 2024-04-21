@@ -14,9 +14,10 @@ function main() {
   
   //カレンダー取得通知
   if (calendar){
-    console.log(calendar.getName()+'時間割を書き込みます。')
+    console.log(calendar.getName()+'に時間割を書き込みます。')
   }else{
     console.log('カレンダーが取得できませんでした。')
+    return;
   }
   
   //スプレッドシートの取得

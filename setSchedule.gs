@@ -69,5 +69,6 @@ function setSchedule(sheets, calendar) {
     }
 
   }
+  console.log("すべての時間割を追加しました。")
 }
 
