@@ -3,7 +3,7 @@
 
 ## 使い方
 ### 1. 自分のGoogle Driveに取り込む
-1. <a href="https://docs.google.com/spreadsheets/d/1KptaI71qJfaNsvWt3y787pP6A0XO6Qbcdm9M_Cpq8jA/edit?usp=sharing">このリンク</a>を開く。開いたファイルを直接書くことはできないので自分のGoogleDriveにコピーを作成します。
+1. <a href="https://docs.google.com/spreadsheets/d/1KptaI71qJfaNsvWt3y787pP6A0XO6Qbcdm9M_Cpq8jA/edit?usp=sharing" target="_blank">このリンク</a>を開く。開いたファイルを直接書くことはできないので自分のGoogleDriveにコピーを作成します。
    
 3. 「ファイル」を選択し、「コピーを作成」を選択する。
    
