@@ -27,7 +27,8 @@ googleカレンダーを使った日程調整に便利です。
 ### 注意
 + まれに「実行」ボタンをクリックしても実行されないときがあるのでその時はもう一度押してください。
 + 初めて使う際、このような画面が出ますが「詳細」をクリックして「安全でないページに戻る」をクリックすれば使えます。
-![image](https://github.com/KoukiFOL/timeTableManager/assets/92080227/642885a5-a55f-4fdf-ad78-bbb22ce9a929)
+![image](https://github.com/KoukiFOL/timeTableReminder/assets/92080227/5159fe7c-0896-4524-9b58-39b03856bf10)
+
 
 ### 実装予定の機能
 + 休日開校日、変則的な時間割に対応して時間割を書き込む機能
