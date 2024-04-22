@@ -1,5 +1,7 @@
 # 時間割リマインダ
-大学の時間割をGoogle Carendarにスケジュールとして追加するbotです。googleカレンダーを使った日程調整に便利です。
+大学の時間割をGoogle Carendarにスケジュールとして追加するbotです。
+
+googleカレンダーを使った日程調整に便利です。
 
 ## 使い方
 ### 1. 自分のGoogle Driveに取り込む
