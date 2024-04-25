@@ -1,3 +1,8 @@
+/**
+ * createcarendar()関数
+ * 「時間割」カレンダーがない場合、作成する関数。
+ */
+
 function createCalendar() {
   try {
     //すべてのカレンダーを取得
@@ -14,14 +19,14 @@ function createCalendar() {
 
       var calendarOptions = {
         summary: 'timeTableManagerより作成',
-        color: CalendarApp.Color.GRAY
+        color: CalendarApp.Color.MUSTARD
       }
       var calendar = CalendarApp.createCalendar('時間割', calendarOptions)[0];
       console.log("時間割を書き込むカレンダーがなかったので作成しました。")
       return calendar;
     }
   }catch(error){
-    console.error('エラー:' + error.message);
+    showError('エラー:' + error.message);
     return null;
   }
 }

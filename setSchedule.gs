@@ -1,4 +1,11 @@
+/**
+ * setSchedule()関数
+ * スプレッドシートの時間割をgoogleカレンダーに追加する関数。
+ */
+
+
 function setSchedule(sheets, calendar) {
+  try{
   // 時間割を取得(timetable[時限][曜日])
   const sheet = sheets.getSheetByName('時間割');
   const timeTable = sheets.getRange('D2:J7').getValues();
@@ -68,6 +75,10 @@ function setSchedule(sheets, calendar) {
       date.setDate(date.getDate() + 1);
     }
 
+  }
+  console.log("すべての時間割を追加しました。")
+  }catch(error){
+    showError(error);
   }
 }
 
