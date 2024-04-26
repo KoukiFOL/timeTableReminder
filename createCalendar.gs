@@ -1,3 +1,8 @@
+/**
+ * createcarendar()関数
+ * 「時間割」カレンダーがない場合、作成する関数。
+ */
+
 function createCalendar() {
   try {
     //すべてのカレンダーを取得
@@ -21,7 +26,7 @@ function createCalendar() {
       return calendar;
     }
   }catch(error){
-    console.error('エラー:' + error.message);
+    showError('エラー:' + error.message);
     return null;
   }
 }

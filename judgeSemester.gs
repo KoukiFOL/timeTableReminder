@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 /*
  * judgeSemester関数
  * 現在春学期か秋学期か判定する関数
